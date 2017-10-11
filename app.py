@@ -1,7 +1,6 @@
 from flask import Flask, request
 from flask_restful import Resource, Api, reqparse
 from json import dumps
-from flask.ext.jsonpify import jsonify
 
 import requests
 from bs4 import BeautifulSoup
